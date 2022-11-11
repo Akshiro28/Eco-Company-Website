@@ -1,0 +1,371 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+}
+
+h1{
+    
+    font-size: 50px;
+    line-height: 1.2;
+}
+
+
+.header{
+    background-image: url(../images/navbar.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 380px;
+}
+
+.logo{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 70px;
+    padding-top: 2px;
+    padding-left: 60px;
+    border-bottom: 3px solid #3e755c;
+    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.17);
+}
+
+
+.menu{
+    padding-top: none;
+    padding-right: 15px;
+    float: right;
+    font-size: 24px;
+}
+
+.menu ul li{
+    list-style: none;
+}
+
+.menu ul li a{
+    display: inline-block;
+    padding-right: 80px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:black;
+    text-align: center;
+}
+
+.headercontent{
+    padding-top: 60px;
+    text-align: center;
+}
+
+.subtext{
+    font-size: 20px;
+}
+
+
+.content{
+    margin: 100px 150px;
+    line-height: 1.2;
+}
+
+.container{
+    background-image: url(../images/content.jpg);
+    padding: 100px;
+    height: 400px;
+    background-position: 80px 0px;
+}
+
+.text1{
+    margin-top: 75px;
+    float: left;
+    font-size: 36px;
+    line-height: 1.5;
+}
+
+.text2{
+    float: right;
+    margin-top: 160px;
+    font-size: 40px;
+}
+
+.text2 a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: 3px solid black;
+
+    display: inline-block;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+.content2{
+    float: middle;
+    padding: 100px;
+    height: 840px;
+    line-height: 1.5;
+}
+
+.headtext{
+    text-align: center;
+    font-size: 60px;
+}
+
+.border1{
+	background-image: url(../images/border1.jpg);
+    margin-top: 40px;
+    width: 900px;
+    padding : 50px;
+    float: middle;
+    font-size: 30px;
+    border: 2px solid black;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-size: 1000px 500px;
+}
+
+.border2{
+	background-image: url(../images/border2.jpg);
+    width: 900px;
+    margin-top: 40px;
+    padding : 50px;
+    float: middle;
+    font-size: 30px;
+    border: 2px solid black;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	background-size: 1000px 500px;
+	background-position: 0px -60px;
+}
+
+.border3{
+	background-image: url(../images/border3.jpg);
+    width: 900px;
+    margin-top: 40px;
+    padding : 50px;
+    float: middle;
+    font-size: 30px;
+    border: 2px solid black;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	background-size: 1000px 500px;
+	background-position: 0px -60px;
+}
+
+.container3 {
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 810px;
+    background-position: 80px 0px;
+}
+
+.feedback {
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 600px;
+    background-image: url(../images/cs.jpg);
+    background-size: cover;
+    padding: 50px
+}
+
+.text3 {
+    float: left;
+    margin-top: 200px;
+    margin-left: 60px;
+    font-size: 40px;
+    line-height: 1.5;
+}
+
+.text3 a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: 3px solid black;
+
+    display: inline-block;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+.bottom {
+    display: inline-block;
+    width: 100%;
+    height: 280px;
+    background: url(../images/background.jpg);
+    background-size: cover;
+    padding: 20px;
+    font-size: 40px;
+}
+
+.icons {
+    display:inline-flex;
+    padding: 50px;
+}
+
+.facebook {
+    margin-left: 0px;
+}
+
+.facebook a{
+    text-decoration: none;
+    color: black;
+}
+.twitter {
+    margin-left: 50px;
+}
+
+.twitter a{
+    text-decoration: none;
+    color: black;
+}
+.instagram {
+    margin-left: 50px;
+}
+
+.instagram a{
+    text-decoration: none;
+    color: black;
+}
+
+.productcontent {
+    padding: 100px;
+    height: 400px;
+}
+
+.productimage {
+    padding: 100px;
+    border: 3px solid black;
+    width: 350px;
+    height: 200px;
+    background-image: url(../images/products1.jpg);
+    background-size: cover;
+    text-align-last: right;
+    display: inline-flex;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.producttext {
+    padding-left: 20px;
+    padding-bottom: 30px;
+    float: right;
+    font-size: 40px;
+    
+}
+
+.producttext a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: 3px solid black;
+
+    display: inline-block;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+.form {
+    
+    padding: 100px;
+
+}
+
+.formcontainer{
+    margin: auto;
+    border: 3px solid black;
+    width: 500px;
+    padding: 30px;
+}
+
+.formheader{
+    font-size: 20px;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+}
+
+.form p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.aboutuscontent {
+    padding: 100px;
+    height: 400px;
+
+}
+
+.ourbackground {
+    padding: 100px;
+    height: 200px;
+
+    background-image: url(../images/grad.jpg);
+    background-size: cover;
+}
+
+.backgroundtext h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 60px;
+    color: white;
+}
+
+.backgroundtext p{
+    font-size: 30px;
+    color: white;
+}
+
+.backgroundtext2{
+    font-size: 40px;
+    padding: 20px;
+}
+
+.dev table td{
+    width: 30%;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.button {
+
+    background-color: rgba(142, 240, 167, 0.651);
+    display: inline-block;
+    font-size: 36px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 7px #999;
+}
+
+.button:hover {
+    background-color: rgb(114, 184, 132);
+}
+
+.button:active {
+    background-color: #438645;
+    box-shadow: 0 3px #666;
+    transform: translateY(4px);
+}
+
+.button1 {
+    background-color: #b0eccf00;
+    display: inline-block;
+    font-size: 32px;
+    margin: 20px;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+}
+
+.button1:hover {
+    background-color: #7bcca5;
+}
+
+.button2 {
+    background-color: rgba(157, 194, 230, 0.493);
+    display: inline-block;
+    font-size: 36px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 7px #999;
+}
+
+.button2:hover {
+    background-color: rgb(131, 163, 194);
+}
+
+.button2:active {
+    background-color: rgb(95, 121, 145);
+    box-shadow: 0 3px #666;
+    transform: translateY(4px);
+}
